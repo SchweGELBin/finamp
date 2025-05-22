@@ -82,3 +82,44 @@ const darkColorScheme = ColorScheme(
   outlineVariant: Color(0xFF41484D),
   scrim: Color(0xFF000000),
 );
+
+
+const amoledColorScheme = ColorScheme(
+  brightness: Brightness.dark,
+  // Primary
+  primary: jellyfinBlueColor,
+  onPrimary: Color(0xFF001E2C),
+  primaryContainer: Color(0xFF004C68),
+  onPrimaryContainer: Color(0xFFC3E7FF),
+  // Secondary
+  secondary: Color(0xFF60B4DD),
+  onSecondary: Color(0xFF112732),
+  secondaryContainer: Color(0xFF206B8C),
+  onSecondaryContainer: Color(0xFFCEEEFF),
+  // Tertiary
+  tertiary: Color(0xFFC979E2),
+  onTertiary: Color(0xFF3D0050),
+  tertiaryContainer: Color(0xFF762A90),
+  onTertiaryContainer: Color(0xFFFAD7FF),
+  // Error
+  error: Color(0xFFFFB4AB),
+  errorContainer: Color(0xFF93000A),
+  onError: Color(0xFF690005),
+  onErrorContainer: Color(0xFFFFDAD6),
+  // Background & Surface
+  background: Color(0xFF000000),
+  onBackground: Color(0xFF101315),
+  surface: Color(0xFF000000),
+  onSurface: Color(0xFF101315),
+  surfaceVariant: Color(0xFF101315),
+  onSurfaceVariant: Color(0xFFE1E2E5),
+  // Other colors
+  outline: Color(0xFF80878C),
+  onInverseSurface: Color(0xFF191C1E),
+  inverseSurface: Color(0xFFE1E2E5),
+  inversePrimary: Color(0xFF00668A),
+  shadow: Color(0xFF000000),
+  surfaceTint: Color(0xFF7BD0FF),
+  outlineVariant: Color(0xFF41484D),
+  scrim: Color(0xFF000000),
+);

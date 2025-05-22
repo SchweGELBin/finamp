@@ -175,7 +175,9 @@ class FinampSettingsAdapter extends TypeAdapter<FinampSettings> {
       ..writeByte(25)
       ..write(obj.showFastScroller)
       ..writeByte(26)
-      ..write(obj.swipeInsertQueueNext);
+      ..write(obj.swipeInsertQueueNext)
+      ..writeByte(27)
+      ..write(obj.amoledTheme);
   }
 
   @override

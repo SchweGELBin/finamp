@@ -352,7 +352,7 @@ class Finamp extends StatelessWidget {
                     ),
                     darkTheme: ThemeData(
                       brightness: Brightness.dark,
-                      colorScheme: darkColorScheme,
+                      colorScheme: FinampSettingsHelper.finampSettings.amoledTheme ? amoledColorScheme : darkColorScheme,
                     ),
                     themeMode: box.get("ThemeMode"),
                     localizationsDelegates: const [

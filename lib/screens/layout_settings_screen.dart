@@ -3,6 +3,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../components/LayoutSettingsScreen/theme_selector.dart';
 import 'tabs_settings_screen.dart';
+import '../components/LayoutSettingsScreen/amoled_theme_selector.dart';
 import '../components/LayoutSettingsScreen/content_grid_view_cross_axis_count_list_tile.dart';
 import '../components/LayoutSettingsScreen/content_view_type_dropdown_list_tile.dart';
 import '../components/LayoutSettingsScreen/show_text_on_grid_view_selector.dart';
@@ -27,6 +28,7 @@ class LayoutSettingsScreen extends StatelessWidget {
             ContentGridViewCrossAxisCountListTile(type: type),
           const ShowTextOnGridViewSelector(),
           const ShowCoverAsPlayerBackgroundSelector(),
+          const AmoledThemeSelector(),
           const HideSongArtistsIfSameAsAlbumArtistsSelector(),
           const ThemeSelector(),
           const Divider(),
